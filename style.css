@@ -1,0 +1,50 @@
+/* Fondo oscuro elegante con degradado */
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Tarjeta principal */
+.main-card {
+    background-color: #1c1f26;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+/* Recuadro del color */
+#colorBox {
+    height: 160px;
+    border-radius: 12px;
+    border: 3px solid #ffffff22;
+    background-color: rgb(0,0,0);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.7);
+}
+
+/* Inputs numéricos */
+.rgb-input {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Sombras y estilo a sliders */
+.custom-range {
+    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.6));
+}
+
+/* Filas más compactas */
+.control-row {
+    background-color: #2a2f3a;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Footer pegado abajo */
+.footer {
+    margin-top: auto;
+    background-color: #111;
+    font-size: 14px;
+}
